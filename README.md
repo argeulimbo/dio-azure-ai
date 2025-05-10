@@ -21,4 +21,24 @@
 * Reconhecimento e síntese de fala
  - Use recursos de conversão de texto em fala do Serviço de Fala para gerar fala audível a partir de texto.
 
+## [ Azure Cognitive Search: AI Search para indexação e consulta de Dados ]
+
+* Soluções de Pesquisa Cognitiva do Azure
+ - Ingestão de dados
+    -> Azure Blob Storage containers 
+    -> Azure Data Lake Storage Gen2
+    -> Azure Table Storage
+
+ - Enriquecimento de índice de IA: torna o conteúdo mais útil para fins de pesquisa
+    -> Permite uma compreensão mais profunda
+    -> Visão, Processamento de Linguagem Natural, etc
+    -> A indexação torna o conteúdo pesquisável
+ - O conteúdo enriquecido é criado por conjuntos de habilidades como:
+    -> Reconhecer entidades no texto
+    -> Traduzir texto
+    -> Avalie o sentimento
+ - Um conjunto de habilidades produz documentos enriquecidos 
+    -> Consumido durante a indexação
+    -> Os dados serializados são passados ao mecanismo de pesquisa para indexação
+
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
