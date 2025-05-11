@@ -20,6 +20,7 @@
 
 * Reconhecimento e síntese de fala
  - Use recursos de conversão de texto em fala do Serviço de Fala para gerar fala audível a partir de texto.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 ## [ Azure Cognitive Search: AI Search para indexação e consulta de Dados ]
 
@@ -42,3 +43,15 @@
     -> Os dados serializados são passados ao mecanismo de pesquisa para indexação
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+## [ Fundamentos da IA Generativa ]
+Temas abordados: I. Conceitos básicos de IA gerativa, II. Conceitos básicos do Serviço OpenAI do Azure, III. Explorando a IA Gerativa Responsável
+
+* O que é IA generativa?
+IA: imita o comportamento humano usando aprendizado de máquina para interagir com o ambiente e executar tarefas sem instruções explícitas sobre o que gerar.
+IA generativa: cria conteúdo original, como IA gerativa que foi incorporada a aplicativos de chat. Os aplicativos de IA gerativa usam entrada em linguagem  natural e retornam respostas apropriadas em uma variedade de formatos: 
+ - Geração de linguagem natural
+ - Geração de código
+ - Geração de imagem
+
+
+
