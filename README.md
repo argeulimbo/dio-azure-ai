@@ -41,8 +41,8 @@
  - Um conjunto de habilidades produz documentos enriquecidos 
     -> Consumido durante a indexação
     -> Os dados serializados são passados ao mecanismo de pesquisa para indexação
-
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 ## [ Fundamentos da IA Generativa ]
 Temas abordados: I. Conceitos básicos de IA gerativa, II. Conceitos básicos do Serviço OpenAI do Azure, III. Explorando a IA Gerativa Responsável
 
@@ -96,10 +96,38 @@ Logo, os elementos que se repetem são tokenizados apenas uma vez
 
 [ Copilots ou Copilotos ]
  São frequentemente integrados a outros aplicativos e fornecem uma maneira para os usuários obterem ajuda com tarefas comuns a partir de um modelo generativo de IA. Pode ser criado por DEV's e enviam prompts para grandes modelos de linguagem e gera-se conteúdo para uso em aplicativo
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+## [ Conceitos Básicos do Serviço OpenAI do Azure ]
+O serviço OpenAI é a solução de nuvem da Microsofot para implantar, personalizar e hospedar modelos de linguagem grandes. Segurança corporativa com RBAC (controle de acesso baseado em função) e redes privadas. Sendo possível usar vários métodos para desenvolver soluções do Azure OpenAI como:
+ 1. Estúdio de IA do Azure,
+ 2. API REST,
+ 3. SDKs com suporte e CLI do Azure.
 
+ * Modelos que o OpenAI do Azure tem suporte: GPT4, GPT 3.5, Incorporações(conjunto de modelos que podem converter texto em um formulário de vetor numérico para facilitar a similaridade de texto), DALL-E (visualização ou versão prévia, não tem SLA)
 
- 
+ * Funcionalidades de linguagem natural do OpenAI do Azure
+Os modelos de GPT (transformadores pré-treinados generativos) são excelentes para entender e criar linguagem natural, por exemplo: 
+    "Escreva instruções de receita para uma torta de frutas com base nestes ingredientes: 
+       - Strawberries, Blueberries, Farinha, Ovos, Leite"
+ Exemplo de resposta gerada: 
+  "Instruções: ... " Ele gera a receita em si.
+Os modelos GPT traduzem linguagem natural ou trechos de código em código, a geração do código vai além de só escrever o código a partir de prompts em linguagem natural.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+### [ Explorando Recursos de IA Generativa com Copilot e OpenAI ]
+*IA Generativa Responsável*
+As quatro fases do processo para desenvolver e implemenar um plano de IA responsável são -> Identificar, Medida, Mitigar e Operar.
 
+a) Identificar
+ Possíveis danos relevantes para a solução planejada
+
+b) Medida
+ A presença desses danos nas saídas pela solução
+
+c) Mitigar
+ Os danos em várias camadas em sua solução para minimizar a presença e impacto deles
+
+d) Operar
+ A solução com responsabilidade definindo e seguindo um plano de implantação e de preparação operacional
 
